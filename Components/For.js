@@ -4,15 +4,15 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function App() {
   const navigation = useNavigation();
-
+  
   return (
     <View style={styles.container}>
-      <Text>Third</Text>
+      <Text>For</Text>
       <StatusBar style="auto" />
       <Button
-      title="GO"
+      title="Back"
       onPress={() => {
-        navigation.navigate("For");
+        navigation.goBack();
       }}
     />
     </View>
