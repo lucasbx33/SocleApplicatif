@@ -49,9 +49,7 @@ export default function Register() {
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
-          // Add your registration logic here
-          // For example, you can send the user data to a server
-          // and navigate to the next screen if registration is successful
+
           navigation.goBack();
         }}
       >
@@ -67,23 +65,23 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal: '5%', // Utilisation de pourcentage pour la marge horizontale
+    paddingHorizontal: '5%', 
   },
   inputContainer: {
-    width: '100%', // Utilisation de pourcentage pour la largeur
-    marginBottom: '5%', // Utilisation de pourcentage pour la marge inférieure
+    width: '100%', 
+    marginBottom: '5%', 
   },
   input: {
     height: 40,
     borderColor: 'gray',
     borderWidth: 1,
     paddingLeft: 10,
-    marginBottom: '5%', // Utilisation de pourcentage pour la marge inférieure
+    marginBottom: '5%', 
   },
   button: {
     backgroundColor: 'green',
-    paddingVertical: '2%', // Utilisation de pourcentage pour le remplissage vertical
-    paddingHorizontal: '5%', // Utilisation de pourcentage pour le remplissage horizontal
+    paddingVertical: '2%',
+    paddingHorizontal: '5%',
     borderRadius: 5,
   },
   buttonText: {

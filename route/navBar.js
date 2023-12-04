@@ -11,7 +11,7 @@ export default function Login() {
     <Tab.Navigator initialRouteName="Main" screenOptions={{
         showLabel:false,
         headerShown:false, //Affiche le nom de la route en haut de la page
-        tabBarActiveTintColor: 'blue',
+        tabBarActiveTintColor: 'blue', //couleur des boutons de la navbar si fenetre ouverte ou non
         tabBarInactiveTintColor: 'gray',
       }}>
         <Tab.Screen name="Main" component={Main} options={{ tabBarBadge: 3 }}/>
